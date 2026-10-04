@@ -4,4 +4,4 @@ The initial export was validated locally on Python 3.12.14 with NetworkX 3.6.1, 
 
 The compared frozen outputs are the complete structures, including per-edit and per-edge evidence, not just headline aggregates. No corpus questions, graph-edit rules, null sampler, or scientific implementation were changed during export. The environment dependency versions were pinned. A new orchestration script performs revision and checksum checks and regenerates the previously separately reported sensitivities. The export contains no development history, internal reviews/planning, raw upstream datasets, model API clients, or credentials.
 
-This snapshot is pending author review and CI; it is not yet the artifact-v1.0 release.
+The artifact PR has been reviewed and merged. The released commit, `2f1bf7b78693197c245da86b7c6ea659f7da5dd8`, passed full GitHub reproduction on Python 3.11.16 (workflow run 37178714884), including all 43 tests. It is published as `artifact-v1.0` and archived at https://doi.org/10.5281/zenodo.23131405 . The DOI metadata identifies the same release version. Later documentation updates on `main` do not alter that released commit or archive.
