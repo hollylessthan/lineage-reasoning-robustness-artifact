@@ -1,0 +1,22 @@
+{
+  "median_null_gini": 0.6438079108852992,
+  "median_null_top10_share": 0.5131763027533712,
+  "null_above_mean": 3,
+  "null_above_p97_5": 0,
+  "null_below_p2_5": 3,
+  "rho_density": 0.8160123484559989,
+  "rho_excluding_small_graphs": 0.9285714285714286,
+  "rho_lost_reachability": 0.9515151515151515,
+  "rho_lost_reachability_excluding_small": 0.9285714285714286,
+  "rho_multiplicity_above_5pct": 0.7714285714285715,
+  "rho_primary": 0.9515151515151515,
+  "rho_without_both_workday": 0.9047619047619048,
+  "rho_without_workday001": 0.9333333333333332,
+  "rho_without_workday002": 0.9333333333333332,
+  "verification_exact_wins": 1,
+  "verification_max_advantage_pp": 3.100775193798455,
+  "verification_mean_advantage_pp": 0.18239854081167384,
+  "verification_median_advantage_pp": 0.0,
+  "verification_projects": 17,
+  "verification_ties": 16
+}

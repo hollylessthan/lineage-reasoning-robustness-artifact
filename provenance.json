@@ -1,0 +1,45 @@
+{
+  "code_source_commit": "05b3d28083700dd9132059198a6a77e211adc63f",
+  "dwbench_release": "v1.0.0",
+  "dwbench_release_sha256": "94a4057581467745abba3953add69bd6cc4e9e984b05e7894e9f2238ff9674f9",
+  "expected_sha256": {
+    "expected/dwbench_pristine_parity.json": "8d26686a7845b70cf4206778d295ffb7b6310c6224f3ebad481867178a18af9b",
+    "expected/manuscript_checks.json": "3f33ac1b7b081dc54f768f159f07fc9f1b16a0c67360b7208a7e45a203865566",
+    "expected/paper_spider_summary.json": "cb95af27aa540c4ce59898cd7c8f525383163a624dc4468cbcb317fdb8f116c6",
+    "expected/phase0c_exact_severity_oracle.json": "b8a9b16c8dfd4166806fe3bef7784136f3d2d94a93e0332f081b960015822f1f",
+    "expected/predraft_gap_analysis.json": "94b96e62ba8b008f4783ecd2d343bde6b4102db7ef39044296dc2e2d4bb91e77",
+    "expected/verification_priority.json": "519e5a353e5c26f1c86d7e2559ccc1d3d030d03861432ea26ec7ef7039869039"
+  },
+  "frozen_sources": {
+    "dwbench_oracle": {
+      "artifact_zip_sha256": "eaee8c8f6b26da6f8714283ace6e4b62c9b133b425c43431a39e3f6542a08c1a",
+      "commit": "3da2573aab0e5ecb7bb2e561012615b7a546a3d7",
+      "run_id": 36471252362
+    },
+    "dwbench_parity": {
+      "artifact_zip_sha256": "522eb4397b76c2ce8a10c3d9a4a75c45a75284e79c40d85d949db41df6289db5",
+      "commit": "03c495243bab24689a536c4feaf9565dc7e39a8e",
+      "run_id": 36467434779
+    },
+    "manuscript_checks": {
+      "description": "Derived independently from regenerated per-project and per-edge outputs; checked against manuscript numbers."
+    },
+    "spider": {
+      "artifact_zip_sha256": "cc519662840cf3c41ddf95b1f25cf91c304f86fc57ff1011a7f45cff27252a4c",
+      "commit": "2924524f1b367edb938b1e555772e6917d6cc6c9",
+      "run_id": 36502406033
+    },
+    "verification": {
+      "artifact_zip_sha256": "dd3662c10cbd052d2c18939b2660d846c941efab5e7fabce0461c5086a75b687",
+      "commit": "81c7a0f71a68980e2a662379a7e8e4787a4f3901",
+      "run_id": 36474635784
+    }
+  },
+  "original_environment": {
+    "networkx": "3.6.1",
+    "python": "3.11.16",
+    "torch": "2.14.0+cpu",
+    "torch_geometric": "2.8.0.post1"
+  },
+  "spider_revision": "cafb867313aab4e674652054198f383cf4018943"
+}
