@@ -1,0 +1,89 @@
+{
+  "datasets": [
+    {
+      "by_subtype": {
+        "combined_impact": {
+          "extra": 0,
+          "generated": 9,
+          "gold": 9,
+          "missing": 0
+        },
+        "forward": {
+          "extra": 0,
+          "generated": 19,
+          "gold": 19,
+          "missing": 0
+        },
+        "multi_source": {
+          "extra": 0,
+          "generated": 0,
+          "gold": 0,
+          "missing": 0
+        },
+        "reverse": {
+          "extra": 0,
+          "generated": 17,
+          "gold": 17,
+          "missing": 0
+        },
+        "transitive": {
+          "extra": 0,
+          "generated": 2,
+          "gold": 2,
+          "missing": 0
+        }
+      },
+      "dataset": "tpc-di",
+      "exact": true,
+      "extra": 0,
+      "extra_examples": [],
+      "generated_lineage_questions": 47,
+      "gold_lineage_questions": 47,
+      "missing": 0,
+      "missing_examples": []
+    },
+    {
+      "by_subtype": {
+        "combined_impact": {
+          "extra": 0,
+          "generated": 24,
+          "gold": 24,
+          "missing": 0
+        },
+        "forward": {
+          "extra": 0,
+          "generated": 27,
+          "gold": 27,
+          "missing": 0
+        },
+        "multi_source": {
+          "extra": 0,
+          "generated": 7,
+          "gold": 7,
+          "missing": 0
+        },
+        "reverse": {
+          "extra": 0,
+          "generated": 18,
+          "gold": 18,
+          "missing": 0
+        },
+        "transitive": {
+          "extra": 0,
+          "generated": 0,
+          "gold": 0,
+          "missing": 0
+        }
+      },
+      "dataset": "adventureworks",
+      "exact": true,
+      "extra": 0,
+      "extra_examples": [],
+      "generated_lineage_questions": 76,
+      "gold_lineage_questions": 76,
+      "missing": 0,
+      "missing_examples": []
+    }
+  ],
+  "exact": true
+}
