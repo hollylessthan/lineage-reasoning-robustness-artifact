@@ -2,7 +2,7 @@
 
 Reproduction artifact for **Missing Lineage Edges in Analytics DAGs: Severity, Path Redundancy, and Betweenness**, prepared for IEEE ICSC 2027. This repository provides structural lineage analysis, exact severity validation, frozen evidence, and a command that regenerates and checks the reported results. It uses no LLM calls, paid API, or database credentials.
 
-This is an initial export under review, not an accepted-paper or deployment claim. A release tag will be created after the artifact PR and reproduction checks pass.
+The validated reproduction artifact is published as [artifact-v1.0](https://github.com/hollylessthan/lineage-reasoning-robustness-artifact/releases/tag/artifact-v1.0) and archived on Zenodo with DOI [10.5281/zenodo.23131405](https://doi.org/10.5281/zenodo.23131405). The released commit passed all 43 unit tests and full paper reproduction in GitHub CI. This release makes the research artifact available; it does not imply paper acceptance or a production deployment.
 
 ## Reproduce the paper
 
@@ -52,9 +52,7 @@ NetworkX can print two UserWarnings about graph hashes changing in version 3.5: 
 
 ## Permanent archive
 
-After merging and making the repository public, connect this repository to Zenodo before publishing the `artifact-v1.0` GitHub release. Zenodo can archive the release and assign a DOI. Cite the DOI for that specific version when documenting the paper's exact artifact; retain the GitHub link for browsing and subsequent development. A DOI has not yet been assigned.
-
-Official instructions: https://help.zenodo.org/docs/github/archive-software/github-upload/ .
+The released `artifact-v1.0` snapshot is archived at [https://doi.org/10.5281/zenodo.23131405](https://doi.org/10.5281/zenodo.23131405). This version-specific DOI identifies the exact code and frozen evidence used for the paper. The corresponding [GitHub release](https://github.com/hollylessthan/lineage-reasoning-robustness-artifact/releases/tag/artifact-v1.0) provides the same tagged source snapshot. Cite the DOI for reproducibility and use the repository for browsing and subsequent development. Documentation updates on `main` do not change the released snapshot.
 
 ## Contents and scope
 
