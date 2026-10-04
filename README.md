@@ -42,6 +42,20 @@ For a lighter run that needs only NetworkX, omit the PyTorch installations and a
 
 `expected/manuscript_checks.json` records additional manuscript sensitivities. The per-project and per-edge files contain the numbers for Table I and the redundancy scatter plot. `provenance.json` records source commits, scientific workflow runs, upstream revision, package versions, and SHA256 hashes. The corrected layer-preserving null output is the reference, not the superseded null model.
 
+## Figure 1 data
+
+Figure 1 uses the 10 records in `predraft_gap_analysis.json` under `depth_ge_3_projects`. For each record, the label comes from `project`, the x coordinate is `100 * redundancy.multi_path_fraction`, and the y coordinate is `spearman_gap`, equivalently `1 - impact_betweenness_spearman`. Use `expected/predraft_gap_analysis.json` for the frozen reference or `results/predraft_gap_analysis.json` after reproduction. The manuscript rounds x to two decimal places and y to four for its plotted coordinates. The two Workday points have a combined label but remain separate observations. All values come from the static lineage analysis; there are no model-generated or hand-labeled plot values.
+
+## Expected NetworkX warnings
+
+NetworkX can print two UserWarnings about graph hashes changing in version 3.5: one for directed graphs and one for graphs without node or edge attributes. These are compatibility notices from Weisfeiler-Lehman topology hashing, not failed severity checks. Both the frozen reference and this artifact use the pinned NetworkX 3.6.1 implementation. The reproduction command compares the recorded hashes and every scientific output against the frozen evidence and exits on a difference. Warnings remain visible so unexpected warnings are not hidden; the final PASS/PARTIAL_PASS status and exit code report verification success.
+
+## Permanent archive
+
+After merging and making the repository public, connect this repository to Zenodo before publishing the `artifact-v1.0` GitHub release. Zenodo can archive the release and assign a DOI. Cite the DOI for that specific version when documenting the paper's exact artifact; retain the GitHub link for browsing and subsequent development. A DOI has not yet been assigned.
+
+Official instructions: https://help.zenodo.org/docs/github/archive-software/github-upload/ .
+
 ## Contents and scope
 
 - `src/lineage_robustness/`: static dbt extraction, reachability severity, betweenness, capped path counting, matched DAG nulls, and independent oracle implementations.
